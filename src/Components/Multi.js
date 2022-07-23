@@ -43,7 +43,8 @@ const Multi = ({ tags, maxTag, callback }) => {
   const removeTag = (item) => {
     const filtered = selectedItems.filter((e) => e !== item);
     setSelected(filtered);
-    inputRef.current.value =""
+    inputRef.current.value ="";
+    setErr("")
   };
   const filter = (value) => {
     setDropdown(true);
