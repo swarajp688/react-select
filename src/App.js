@@ -1,8 +1,9 @@
+import Multi from "./Components/Multi";
 
 function App() {
   return (
     <div className="App">
-      App
+      <Multi />
     </div>
   );
 }
