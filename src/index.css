@@ -27,6 +27,9 @@ code {
   padding: 18px 25px 20px;
   box-shadow: 0 0 30px rgba(0,0,0,0.06);
 }
+.error{
+  color: #D61C4E;
+}
 .container :where(.title, li){
   display: flex;
   align-items: center;
